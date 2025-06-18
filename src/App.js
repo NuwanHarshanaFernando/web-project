@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 function App() {
   const [products, setProducts] = useState([]);
   const [page, setPage] = useState(1);
+  //commented
 
   const fetchProducts = async () => {
     const res = await fetch("https://dummyjson.com/products?limit=100");
